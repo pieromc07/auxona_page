@@ -1,1 +1,123 @@
-/* You can add global styles to this file, and also import other style files */
+/** You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,900&display=swap');
+
+:root{
+
+    /** colors dark mode  */
+    --color-primary-dark: #171A1F;
+    --color-secondary-dark: #1E252D;
+    /** colors ligth mode */
+    --color-primary-light: #FFFFFF;
+    --color-secondary-light: #F6F6F6;
+
+    /** colors */
+    --color-1: #3632A6;
+    --color-2: #524BF9;
+    --color-3: #49586B;
+    --color-4: #32323E;
+    --color-5: #DDD9D6;
+    /* #D6D9DD; */
+    /* #C2C7CD; */
+
+    /** font-family */
+    --font-family-1: 'Roboto', sans-serif;
+
+    /** font-size */
+    --font-size-1: .2rem;
+    --font-size-2: .775rem;
+    --font-size-3: .875rem;
+    --font-size-4: 1rem;
+    --font-size-5: 1.2rem;
+    --font-size-6: 1.5rem;
+    --font-size-7: 1.875rem;
+    --font-size-8: 2.25rem;
+    --font-size-9: 2.75rem;
+
+    /** font-weight */
+    --font-weight-1: 400;
+    --font-weight-2: 600;
+    --font-weight-3: 700;
+
+    /** line-height */
+    --line-height-1: 1.5;
+    --line-height-2: 1.8;
+    --line-height-3: 2.2;
+
+    /** spacing */
+    --spacing-1: 0.5rem;
+    --spacing-2: 1rem;
+    --spacing-3: 1.5rem;
+    --spacing-4: 2rem;
+
+    /** border-radius */
+    --border-radius-1: 0.5rem;
+    --border-radius-2: 1rem;
+    --border-radius-3: 1.5rem;
+
+    /** box-shadow */
+    --box-shadow-1: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    --box-shadow-2: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    --box-shadow-3: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+
+    /** transition */
+    --transition-1: 0.3s;
+    --transition-2: 0.6s;
+    --transition-3: 0.9s;
+
+    /** z-index */
+    --z-index-1: 1;
+    --z-index-2: 2;
+    --z-index-3: 3;
+
+    /** media */
+    --media-1: 640px;
+    --media-2: 768px;
+    --media-3: 1024px;
+    --media-4: 1280px;
+    --media-5: 1440px;
+    --media-6: 1600px;
+
+    /** animation */
+    --animation-1: 0.3s;
+    --animation-2: 0.6s;
+    --animation-3: 0.9s;
+
+    /** border  tester*/
+    --border-1: 1px solid red;
+    --border-2: 1px solid green;
+    --border-3: 1px solid blue;
+    --border-4: 1px solid orange;
+    --border-5: 1px solid purple;
+    --border-6: 1px solid black;
+    --border-7: 1px solid gray;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+    width: 100vh;
+    overflow: hidden;
+    font-family: var(--font-family-1);
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+

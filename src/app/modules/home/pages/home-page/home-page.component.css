@@ -1,0 +1,8 @@
+.content{
+    position: relative;
+    min-height: calc(100vh - 70px - 4rem);
+    min-width: calc(100vw - 11rem);
+    background-color: var(--color-primary-light);
+    margin-top: 4.5rem !important;
+    margin-left: 11rem;
+}

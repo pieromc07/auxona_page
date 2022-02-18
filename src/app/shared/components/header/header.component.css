@@ -1,0 +1,40 @@
+.header-wrapper{
+    position: fixed;
+    width: calc(100% - 11rem);
+    top: 0;
+    left: 11rem;
+    height: 3.8rem;
+    border-bottom: 1px solid #D6D9DD;
+    box-shadow: var(--box-shadow-1);
+
+}
+.header-wrapper .header{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 1rem;
+}
+
+.header .header__user{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem 1.2rem;
+}
+
+.header .header__user .user__avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.header .header__user .user__name{
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--color-3);
+    margin-left: .5rem;
+}

@@ -1,0 +1,129 @@
+.card-vertical{
+    box-sizing: border-box;
+    /* margin-left: 24px;
+    margin-top: 24px; */
+    position: relative;
+    /* border: #D6D9DD solid 1px;*/
+    border-radius: 4px; 
+    box-shadow: var(--box-shadow-1);
+}
+
+.card-discover{
+    width: 10.125rem;
+}
+
+.card-vertical .thumbnail{
+    border-radius: 4px;
+    box-shadow: 0 1px 6px rgb(25 25 34 / 16%);
+    display: inline-block;
+    margin: 0;
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    transform: translateZ(0);
+    vertical-align: top;
+}
+
+.thumbnail .picture {
+    background-color: #f4f4f4;
+    display: block;
+    position: relative;
+}
+.thumbnail .picture-link {
+    cursor: pointer;
+}
+
+.thumbnail .picture-img { 
+    display: inline-block;
+    vertical-align: top;
+    object-fit: cover;
+    transition: opacity 300ms ease-out 0s;
+    opacity: 1;
+}
+.img-discover{
+    height: 12.375rem;
+    width: 10.125rem;
+
+}
+.thumbnail .picture:after {
+    background-color: #fff;
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition-duration: .15s;
+    transition-property: opacity,background-color;
+}
+
+.thumbnail .action {
+    bottom: 16px;
+    left: 15px;
+    line-height: 1;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 4;
+    transition-duration: .15s;
+    transition-property: opacity;
+}
+.thumbnail .action-item {
+    margin-right: .8rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.thumbnail .action-item-btn {
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 25%);
+    cursor: pointer;
+    font-size: 1rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    line-height: 36px;
+    opacity: 0;
+    position: relative;
+    text-align: center;
+    transition-duration: .15s;
+  
+}
+.thumbnail .action-item-btn i {
+    color: var(--color-3);
+}
+.thumbnail .action-item-btn.favorite i{
+    color: #EF5466;
+}
+
+.thumbnail .action-item-btn.action-force {
+    opacity: 1;
+}
+
+.thumbnail:hover .action:nth-child(2) .action-item-btn{
+    opacity: 1;
+}
+
+.card-vertical .thumbnail-caption{
+    padding-top: .2rem;
+    width: 100%;
+    color: var(--color-3);
+    text-align: center;
+}
+
+.card-vertical .thumbnail-caption .heading-4{
+    padding: .2rem;
+}
+.thumbnail-caption .heading-4 a{
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-3);
+    color: var(--color-4);
+}
+.card-vertical .thumbnail-caption .heading-5-sub{
+    text-align: center;
+    padding: .2rem;
+    font-size: var(--font-size-2);
+}

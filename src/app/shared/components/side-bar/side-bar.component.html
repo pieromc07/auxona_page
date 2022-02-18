@@ -1,0 +1,37 @@
+<div class="sidebar">
+
+    <div class="logo-content">
+        <div class="logo">
+            <i class="fas fa-music"></i>
+            <span class="logo__name">
+                Auxona
+            </span>
+        </div>
+        <!-- <i class="uil uil-ellipsis-v" id="menu-toggle"></i> -->
+    </div>
+    <div class="sidebar__section">Menu</div>
+    <ul class="sidebar__menu" *ngFor="let item of mainMenu">
+        <li class="sidebar__menu-item">
+            <i [ngClass]="[item.icon]"></i>
+            <span class="link__name">{{item.name}}</span>
+        </li>
+    </ul>
+
+    <div class="sidebar__section">Library</div>
+    <ul class="sidebar__menu" *ngFor="let item of libraryMenu">
+        <li class="sidebar__menu-item">
+            <i [ngClass]="[item.icon]"></i>
+            <span class="link__name">{{item.name}}</span>
+        </li>
+    </ul>
+
+    <div class="sidebar__section">Playlist</div>
+
+    <ul class="sidebar__menu" *ngFor="let item of playlistMenu">
+        <li class="sidebar__menu-item">
+            <i [ngClass]="[item.icon]"></i>
+            <span class="link__name">{{item.name}}</span>
+        </li>
+    </ul>
+
+</div>

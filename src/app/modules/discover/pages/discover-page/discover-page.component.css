@@ -1,0 +1,19 @@
+.discover-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: .5rem;
+}
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: .5rem 1rem;
+}
+.header .header-title{
+    width: 50%;
+    font-size: var(--font-size-6);
+    color: var(--color-3);
+}
