@@ -1,9 +1,5 @@
 .media-player{
-    position: fixed;
-    bottom: 0;
-    left: 11rem;
-    width: calc(100% - 11rem);
-    height: 70px;
+    height: 100%;
     background-color: var(--color-5);
     padding: 0 .5rem;
 }

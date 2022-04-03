@@ -1,6 +1,10 @@
-<app-side-bar></app-side-bar>
-<app-header></app-header>
-<app-media-player></app-media-player>
-<!-- <div class="content">
-    <router-outlet name="content"></router-outlet>
-</div> -->
+<div class="wrapper-page">
+    <app-side-bar class="page__sidebar"></app-side-bar>
+    <app-header class="page__header"></app-header>
+    <div class="page__content">
+        <router-outlet name="content"></router-outlet>
+    </div>
+
+    <app-media-player class="page__media"></app-media-player>
+</div>
+

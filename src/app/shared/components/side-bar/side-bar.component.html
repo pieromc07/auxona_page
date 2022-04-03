@@ -1,4 +1,4 @@
-<div class="sidebar">
+<div class="sidebar" [ngClass]="[isToggled]">
 
     <div class="logo-content">
         <div class="logo">
@@ -7,7 +7,7 @@
                 Auxona
             </span>
         </div>
-        <!-- <i class="uil uil-ellipsis-v" id="menu-toggle"></i> -->
+        <i class="fas fa-angle-right" id="menu-toggle" (click)="toggleSideBar()" ></i>
     </div>
     <div class="sidebar__section">Menu</div>
     <ul class="sidebar__menu" *ngFor="let item of mainMenu">

@@ -15,7 +15,7 @@
     --color-2: #524BF9;
     --color-3: #49586B;
     --color-4: #32323E;
-    --color-5: #DDD9D6;
+    --color-5: #e6e6e6;
     /* #D6D9DD; */
     /* #C2C7CD; */
 
@@ -83,13 +83,13 @@
     --animation-3: 0.9s;
 
     /** border  tester*/
-    --border-1: 1px solid red;
-    --border-2: 1px solid green;
-    --border-3: 1px solid blue;
-    --border-4: 1px solid orange;
-    --border-5: 1px solid purple;
-    --border-6: 1px solid black;
-    --border-7: 1px solid gray;
+    --border-red: 1px solid red;
+    --border-green: 1px solid green;
+    --border-blue: 1px solid blue;
+    --border-orange: 1px solid orange;
+    --border-purple: 1px solid purple;
+    --border-black: 1px solid black;
+    --border-1: 2px solid red;
 
 
 }
@@ -101,11 +101,13 @@
 }
 
 body{
-    position: relative;
     min-height: 100vh;
-    width: 100vh;
-    overflow: hidden;
+    min-width: 100vh;
+    background-color: var(--color-primary-light);
     font-family: var(--font-family-1);
+    font-size: 16px;
+    /* border: var(--border-1); */
+    overflow: hidden;
 }
 
 ul{
@@ -113,6 +115,7 @@ ul{
     padding: 0;
     margin: 0;
 }
+
 li{
     list-style: none;
 }
